@@ -1680,10 +1680,10 @@ const core = __nccwpck_require__(127);
 
 try {
     const text = core.getInput('text');
-    const searchVal = core.getInput('search');
+    const findVal = core.getInput('find');
     const replaceVal = core.getInput('replace');
 
-    const resultVal = text.replace(searchVal, replaceVal);
+    const resultVal = text.replace(findVal, replaceVal);
     
     core.setOutput('result', resultVal);
 
