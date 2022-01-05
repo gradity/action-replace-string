@@ -23,11 +23,12 @@ This action replace specific string with exact match.
 Result of replaced string in text.
 
 ## Example usage
-
+```
 uses: actions/replace-string-action@v1.0
 with:
   text: 'hello-world'
   find: 'world'
   replace: 'people'
+```
 
 ```result: hello-people```
