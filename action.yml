@@ -1,0 +1,18 @@
+name: 'Replace String'
+description: 'Replace string with new value'
+inputs:
+  text:  # id of input
+    description: 'original string'
+    required: true
+  find:
+    description: 'value to replace'
+    required: true
+  replace:
+    description: 'new value'
+    required: true
+outputs:
+  result: # id of output
+    description: 'result of replaced input'
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
